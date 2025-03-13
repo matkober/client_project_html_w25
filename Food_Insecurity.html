@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 1</title>
+    <title>Food Insercurity</title>
+    <link rel="stylesheet" href="css/html5reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
 
     <header>
-            <a href = "">Skip to Main Content</a>
+        <a class = "skip" href = "#main">Skip to Main Content</a>
         <nav>
-            <ul>
+            <ul class = "verticle">
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "First_Generation.html">First Generation College Student</a></li>
-                <li><a href = "Food_Insecurity.html"> Food Insecurity</a></li>
+                <li><a href = "Food_Insecurity.html" class = "active"> Food Insecurity</a></li>
                 <li><a href = "Basic_Needs.html"> Basic Needs </a></li>
             </ul>
         </nav>
@@ -22,14 +24,15 @@
        
 
     </header>
-    <main>
-        <div>
+    <main id = "main">
+
+        <img src="images/FoodInsecurityPicture.jpg" alt="Person reaching for food.">
+        <h2>Our Commitment to Alleviate Food Insecurity</h2>
+
+        <div class = "container">
 
              <!-- Content taken & modified from UMGPT with the prompt, "write me a webpage of intro content to help University of Michigan provide information relating food insecurity resourses" UMGPT. (2024). UMGPT (JAN 23RD version) [Large language model]. -->
 
-             <img src="images/FoodInsecurityPicture.jpg" alt="Person reaching for food.">
-
-            <h2>Our Commitment to Alleviate Food Insecurity</h2>
 
             <p> 
                 Maize & Blue Cupboard: Visit our on-campus food pantry, the Maize & Blue Cupboard, which provides free groceries and personal care items to students in need. Students can shop for fresh produce, dairy, grains, proteins, and more in a supportive and welcoming environment.
@@ -60,8 +63,16 @@
     
     </main>
     <footer>
-        <p>Additional Resource | <a href="https://mbc.studentlife.umich.edu/"> Maize and Blue Cupboard </a>
-        </p>
+        <h3>Additional Resources </h3>
+            
+            
+        <p><a href="https://mbc.studentlife.umich.edu/"> Maize and Blue Cupboard </a></p>
+        
+
+        <p><a href="https://firstgen.umich.edu/"> First Generation Umich</a></p>
+
+        <p><a href="https://basicneeds.studentlife.umich.edu/">Basic Needs Umich </a></p>
+
     </footer>
     
 </body>
