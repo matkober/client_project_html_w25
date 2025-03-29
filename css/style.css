@@ -83,11 +83,13 @@ h1{
 
 
 
-.verticle li{
+.horizontal li{
 
-    padding: 5px;
+    padding: 10px;
+    display: inline-block;
     background-color: #FFCB05;
     border: 2px solid #00274C;
+    
   
 }
 
@@ -154,7 +156,6 @@ footer p{
 
     }
 
-
     /*From W3 schools tutorial on how to center an image*/
 
     img{
@@ -195,12 +196,14 @@ footer p{
 
         display:block;
         background-color: #FFCB05;
+        padding:5px;
 
     }
 
     h3{
 
         font-size:35px;
+        padding:15px;
 
     }
 
@@ -218,9 +221,6 @@ footer p{
     }
 
     
-
-   
-
 
 
 
